@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            Plan B Consulting
+        </title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="img/favicon.io" />
+        <!--normalize cdn-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <!--montserrat (google) font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <!--css stylesheet-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!--fontawesome icons-->
+        <script src="https://kit.fontawesome.com/c89f8c4219.js" crossorigin="anonymous"></script>
+        <!--responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body id="about">
+        <header>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"><img src="img/logo_transparent.png" alt="Logo" class="logo" /></a>
+                    <nav>
+                        <ul>
+                          <li><a href="index.html">Services</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="imprint.html">Imprint</a></li>
+                          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--begining of hero section-->
+        <main>
+            <!--this is the About heading-->
+            <div>
+                <div class="container">
+                    <h1>About</h1>
+                </div>
+            </div>
+            <!--end of the About heading-->
+            <!--beginning of second section with page content-->
+            <div>
+                <!--main section-->
+                <div class="container">
+                    <!--container/wrapper-->
+                    <!--<picture>
+                        <source srcset="img/bernard@1.jpeg" media="(max-width:767px)" />
+                        <img src="img/bernard@2.jpeg" alt="Image of Bernard" />
+                    </picture>-->
+                    <div>
+                        <!--beginning of about us section-->
+                        <div>
+                            <!--beginning of 'our story' section-->
+                            <!--<h2>About Us</h2>-->
+                            <h4>Bernard Berus</h4>
+                            <p>
+                              Has a track record of over 15 years working in Internet, Mobile and Automotive industries for a wide variety of companies, from large global corporations to founding 2 start-ups. Key areas of strength are the ability to analytically investigate and benchmark customer/ market needs using Design Thinking Methods, define a sustainable product/ service value proposition based on the available assets, strengths and resources and then lead multidisciplinary teams to deliver great products which are on par with the overall company vision. Key areas of work: Product Strategy Product Management, Business Development, Project Management, Design Thinking / UX
+                              Specialties: Mobile & Web Services, Location Based Services, Local Commerce / E-Commerce & M-Commerce, Navigation / Mapping, Location Based Advertising, Mobile Advertising, User Centered Service Design, Lean Startup, Design Thinking, Scrum (Agile Software Development), User Research, User Experience Design, Big Data, Machine Learning, Natural Language Understanding (NLU, AI, ASR, TTS, HMI), Connected Car Ecosystem, Internet of Things (IoT), ADAS (Advanced Driver Assistance Systems), Autonomous Driving, Electric Vehicle Charging Technology & Services, Automotive Backend Infrastrutures. His patent portfolio can be seen <a href="https://patents.google.com/?inventor=bernard+berus&oq=bernard+berus">here</a>.
+                            </p>
+                            <h4>Prof Dr. Paul Pronobis</h4>
+                            <p>
+                                Associate Professor of Accounting at ESCP with a demonstrated history of working in the higher education industry in Europe and the US. Skilled in Auditing, Financial Accounting, Management Consulting, Financial Analysis, and Financial Reporting. Strong accounting professional with a Doktor (Ph.D.) focused in Accounting. His class descriptions and research fields can be seen <a href="https://www.ebs.edu/de/person/paul-pronobis">here</a>.
+                            </p>
+                        </div>
+                        <!--end of 'about' section-->
+                        <div>
+                            <!--beginning of 'Standard Services' section-->
+                            <h2>Specialization</h2>
+                            <div class="row" id="skills">
+                                <!--beginning of 'Standard Services' and 'Tools' container-->
+                                <div class="col-md-6">
+                                    <!--beginning of standard services-->
+                                    <h3>Standard Services</h3>
+                                    <ul>
+                                        <li>Product Ideation Workshops</li>
+                                        <li>Financial Due Dilligence for Startups</li>
+                                        <li>Market Analysis</li>
+                                        <li>Expert Interviews</li>
+                                        <li>Turn around Projects</li>
+                                        <li>Qualitative and Quantitative Data Analysis</li>
+                                        <li>Recruitment</li>
+                                        <li>Short & Mid Term Consulting Projects</li>
+                                    </ul>
+                                </div>
+                                <!--end of services-->
+                                <div class="col-md-6" id="tools">
+                                    <!--beginning of 'tools'-->
+                                    <h3>Utilized Frameworks & Tools</h3>
+                                    <ul>
+                                        <li>Design Thinking</li>
+                                        <li>Lean Startup</li>
+                                        <li>Scrum</li>
+                                        <li>SAFe</li>
+                                    </ul>
+                                </div>
+                                <!--end of 'tools'-->
+                            </div>
+                            <!--end of 'services' and 'tools' container-->
+                        </div>
+                        <!--end of 'tools' section-->
+                    </div>
+                    <!--end of my about & tools section-->
+                </div>
+                <!--end of container/wrapper-->
+            </div>
+            <!--end of section with page content-->
+          </main>
+          <footer id="contact">
+            <div class="container">
+                <h2>Get in touch!</h2>
+                <p>Phone: <a href="tel:+49-(one)5(doulbe seven)473(double seven)12 ">hover to see number</a>.</p>
+                <div>
+                    <p></p>
+                    <div>
+                        <a href="mailto:beatbandit@gmail.com" class="button contact">Email</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/bernardberus/" target="_blank">
+                        <svg
+                            height="67px"
+                            id="Layer_1"
+                            style="enable-background: new 0 0 67 67;"
+                            version="1.1"
+                            viewBox="0 0 67 67"
+                            width="67px"
+                            xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                            <path
+                                d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z"
+                                style="fill-rule: evenodd; clip-rule: evenodd; fill: #007ab9;"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <p id="copyright">COPYRIGHT PLAN B CONSULTING 2022</p>
+            </div>
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
+        </body>
+
+        </html>
