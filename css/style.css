@@ -2,7 +2,7 @@
 Colors used:
 Primary color (red): #7E49F6;
 Secondary color (Cyan?): #54E9D1;
-Jaune: #FDD537
+Yellow; may not be used: #FDD537
 #14E8F7
 */
 * {
@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body  {
     background-color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
