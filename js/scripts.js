@@ -1,4 +1,4 @@
-console.log('Welcome to my portfolio🦄')
+console.log('Welcome to Plan B Consulting')
 
 function menuToggle () {
   var x = document.getElementById('myNavtoggle')

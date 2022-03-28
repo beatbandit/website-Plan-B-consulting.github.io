@@ -88,7 +88,7 @@ a:active {
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #ff8426;
-    transition-duration: 0.8s;
+    transition-duration: 0.3s;
 }
 
 .button:hover {
