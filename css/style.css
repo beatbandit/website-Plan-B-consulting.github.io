@@ -22,6 +22,10 @@ body {
     color: #2e2e2e;
 }
 
+/* ==============================
+  to be reviewed after testing
+  ================================= */
+
 h1,
 h2,
 h3,
@@ -136,7 +140,7 @@ svg {
 }
 
 .row {
-    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    margin: 25px 0; /* 25px to the top and bottom, 0 to the left and right */
 }
 
 .row::after {
@@ -334,7 +338,7 @@ main {
 }
 
 /* ==============================
-Medium devices (641px and larger)
+Medium sized devices (641px and larger)
 ================================= */
 @media only screen and (min-width: 641px) {
     header {
@@ -374,7 +378,7 @@ Medium devices (641px and larger)
 }
 
 /* ==============================
-  Large devices (1024px or larger)
+  Larger devices (1024px or larger)
   ================================= */
 @media only screen and (min-width: 1024px) {
     .container {
