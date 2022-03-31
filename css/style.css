@@ -1,8 +1,7 @@
 /*
 Colors used:
 Primary color (red): #7E49F6;
-Secondary color (Cyan?): #54E9D1;
-Yellow; may not be used: #FDD537
+Secondary color (Cyan): #54E9D1;
 #14E8F7
 */
 * {
@@ -15,7 +14,7 @@ html {
 
 body {
     background-color: #ffffff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.6;
